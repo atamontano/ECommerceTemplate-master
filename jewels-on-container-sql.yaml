@@ -72,10 +72,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: catalogapi
+  name: catalog
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: catalogapi
+    app: catalog
